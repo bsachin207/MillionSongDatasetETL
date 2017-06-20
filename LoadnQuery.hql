@@ -7,4 +7,4 @@ LOAD DATA LOCAL INPATH "Songs.csv" OVERWRITE INTO TABLE Songs;
 
 !echo -e "\n################# Starting Query #################\n";
 
---SELECT Title, Artist_name, Tempo, Year FROM Songs GROUP BY Title, Artist_name, Tempo, Year;
+SELECT Title, Artist_name, Tempo, Year FROM Songs GROUP BY Title, Artist_name, Tempo, Year;
